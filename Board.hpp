@@ -1,4 +1,3 @@
-// #pragma once
 #include <iostream>
 #include <stdexcept>
 #include <string>
@@ -19,6 +18,6 @@ namespace ariel
         ~Board();
         void post(unsigned int row, unsigned int column, Direction d, string const &s);
         string read(unsigned int row, unsigned int column, Direction d, unsigned int num);
-        string show();
+        void show();
     };
 }
